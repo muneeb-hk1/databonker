@@ -1,0 +1,130 @@
+.header-search-wrapper {
+    float: right;
+    position: relative;
+}
+
+.search-main {
+    display: block;
+    line-height: 40px;
+    padding: 0 14px;
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-search-wrapper .search-form-main {
+    background: #fff none repeat scroll 0 0;
+    -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .15);
+    border-top: 2px solid #408c40;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 124%;
+    width: 300px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.search-form-main.active-search {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* .header-search-wrapper .search-form-main {
+    border-top-color: #d33;
+} */
+
+
+/* .header-search-wrapper .search-form-main:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #408c40;
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: -10px;
+} */
+
+
+/* .header-search-wrapper .search-form-main:before {
+    border-bottom-color: #d33;
+} */
+
+.header-search-wrapper .search-form-main .search-field {
+    padding: 6px 6px;
+    width: 75%;
+    float: left;
+}
+
+input:focus {
+    background-color: yellow;
+    background-color: transparent;
+    outline: none;
+}
+
+.header-search-wrapper .search-form-main .search-submit {
+    border: medium none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #6a6a6a;
+    float: left;
+    padding: 10px 0 10px;
+    width: 25%;
+    height: 36px;
+}
+
+.search_field {
+    display: inline-block;
+    border: 1px inset #ccc;
+    border-radius: 30px;
+    padding: 4px 10px;
+}
+
+.search_field input {
+    border: none;
+    padding: 0;
+}
+
+.search_field button {
+    border: none;
+    background: none;
+    margin-left: 30px;
+}
+
+.input-search-img {
+    height: 20px;
+    margin-top: 7px;
+}
+
+.search-responsive {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        display: flex;
+    }
+    .search-responsive {
+        display: block;
+    }
+    .search-form-main.active-search {
+        margin-top: 10px;
+    }
+    .search-hide {
+        display: none;
+    }
+    .responsive-toggle {
+        width: 20%;
+        display: flex;
+    }
+    .navbar-light .navbar-nav .dropdown {
+        background: #ecfcf1;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+}
