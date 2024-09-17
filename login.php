@@ -19,32 +19,41 @@
 
 <?php include "header.php"?>
 
-<div class="container mt-5 mb-5">
-    <div class="row">
-        <div class="col-lg-12 account">
-            <div class="head-signup">
-                <h2>Welcome to Databonker <img src="assets/img/login.png" alt=""> 
-                    <br>
-                    Login  your account.
-                </h2>
-            </div>
-            <div class="signup-form mt-5">
-                            <div class="signup-container">
-                    <form class="signup-form" action="#" method="post">
 
+<div class="container form-box mb-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 account">
+            <div class="head-signup">
+                <h2>Welcome to Databonker  
+                    <br>
+                    Community "Solve My Doubt".
+                </h2>
+                <p class="mt-3">Once logged in, you'll have access to your account features and settings. Enjoy your access!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="signup-form mt-5">
+
+                    <form action="#" method="post">
                     <label for="email">Enter Your Email</label>
                     <input type="email" placeholder="Email" required>
-
                     <label for="password">Enter Your Password</label>
                     <input type="password" placeholder="Password" id="box1" required>
                     <div class="password-checkbox">
                     <input type="checkbox" onclick="Click()" id="password-checkbox">
-                    <label for="password-checkbox">Show Password</label>
+                    <label for="password-checkbox" class="password-check">Show Password</label>
                     </div>
                     <button type="submit">Sign Up</button>
                     </form>
+
+                <div class="already-account mt-3 mb-0">
+                <p>Create account? <a href="signup.php" target="_blank" class="sign-in">Sign up.</a></p>
+                <div>
+                <a href="#" class="forget_pass">Forget Password</a>
                 </div>
             </div>
+            </div>
+
         </div>
     </div>
 </div>
