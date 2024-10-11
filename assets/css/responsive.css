@@ -1,0 +1,404 @@
+@media only screen and (min-width: 1200px) {
+    .navbar-nav a{
+        font-size: 14px;
+    }
+    .dd-button{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-nav a{
+        font-size: 12px;
+    }
+    .blog-details .question-network{
+        width: 90%;
+    }
+    .category-tabs ul div:nth-child(1) li a {
+        margin-right: 16px;
+        font-size: 14px;
+    }
+    .category-tabs ul div:nth-child(1) li a{
+        padding: 0px;
+    }
+    .sort-drop{
+        font-size: 14px;
+    }
+    .side-tabs{
+        padding: 0px 10px;
+    }
+    .side-tabs li a{
+        font-size: 11px;
+    }
+    .create-account {
+        font-size: 14px;
+    }
+    .dd-button{
+        font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .navbar-nav a{
+        font-size: 11px;
+    }
+    .dd-button{
+        font-size: 12px;
+    }
+    .profile-bar ul li a{
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 1049px){
+    .navbar-nav a{
+        font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .logo_acc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .logo_acc a:nth-child(2){
+        display: block;
+        background-image: linear-gradient(45deg, #63ed8e, #af31fa6b);
+    padding: 6px 10px;
+    color: white;
+    border-radius: 6px;
+    }
+    .side-tabs{
+        display: none;
+    }
+    #show_side_tabs{
+        width: 30%;
+        position: fixed;
+        z-index: 99999;
+        height: 100%;
+        top: 0;
+        border-radius: 0px;
+    }
+
+    #show_side_tabs ul li:nth-child(1){
+        display: flex;
+        justify-content: end;
+    }
+
+    #close_side_tab{
+        display: inline-block;
+        padding: 4px 6px;
+        border: 1px solid #116611;
+        border-radius: 100%;
+    }
+
+    #sidetab{
+        display: block;
+    }
+
+    .category-tabs ul div:nth-child(1) li a {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .category-tabs ul div:nth-child(1) #sidetab i{
+        font-size: 18px;
+        border: 1px solid #228b22;
+        border-radius: 4px;
+        padding: 3px 5px;
+        color: #228b22;
+    }
+
+    .category-tabs ul div:nth-child(2) span{
+        /* font-size: 10px; */
+        display: none;
+    }
+    .sort-drop{
+        font-size: 10px;
+        padding: 3px 3px;
+        border-radius: 6px;
+    }
+
+    .user-question-profile div{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .blog-details .question-network{
+        width: 100%;
+    }
+    .blog-tags{
+        margin-left: 0;
+    }
+    .blog-tags ul li a{
+        padding: 0px 4px;
+        font-size: 13px;
+        color: black;
+        border: 1px solid transparent;
+    }
+    .blog-details .question-bar a{
+        font-size: 16px;
+    }
+    .user-login h2{
+        font-size: 16px;
+    }
+    .user-login p{
+        font-size: 11px;
+    }
+    .create-account{
+        border: 1px solid #88d8a8;
+    padding: 5px 4px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    color: #6baa84;
+    }
+    .log-in{
+        font-size: 12px;
+    }
+    .discussion-icon img{
+        width: 100%;
+    }
+    .signup-form input[type="radio"]{
+        height: 20px;
+        width: 100% !important;
+        margin-bottom: 7px;
+        display: flex;
+        margin-left: 20px !important;
+    }
+    /* User Profile */
+    .profile-bar{
+        display: none;
+    }
+
+    #show_profile_bar{
+        width:30%;
+        position: fixed;
+        top: 0;
+        z-index: 99999;
+    }
+    #user_show_toggle{
+        display: block;
+    }
+    #show_profile_bar li i{
+        color: white;
+        border-color: white;
+    }
+    #show_profile_bar .cls_tab {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .question-network{
+        width:70%;
+    }
+    .question-login div p{
+        color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px;
+    }
+    .answer-network{
+        width: 80%;
+    }
+    
+.user-question-profile{
+    display: flex;
+}
+
+.user-answer-profile div{
+    display: flex;
+    gap:30px;
+    margin-bottom: 10px;
+}
+  }
+
+  @media only screen and (max-width:767px){
+    .right-side-bar{
+        display: none;
+    }
+    .account{
+        display: none !important;
+    }
+    .signup-form input[type="radio"]{
+        height: 20px;
+        width: 60% !important;
+        margin-bottom: 7px;
+        display: flex;
+        margin-left: 20px !important;
+    }
+    .answer-network ul{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .answer-bar{
+        margin-top: 10px !important;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .responsive-toggle{
+        width: 25%;
+    }
+    .signup-form input[type="radio"]{
+        height: 20px;
+        width: 68% !important;
+        margin-bottom: 7px;
+        display: flex;
+        margin-left: 20px !important;
+    }
+    #show_side_tabs{
+        width: 45%;
+    }
+    #show_profile_bar{
+        width: 40%;
+    }
+    .question-network{
+        width: 80%;
+    }
+    .question-login div img{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .navbar-brand img{
+        height: 50px;
+    }
+
+    #show_profile_bar{
+        width: 50%;
+    }
+
+    .logo_acc a:nth-child(2){
+        display: block;
+        background-image: linear-gradient(45deg, #63ed8e, #af31fa6b);
+        padding: 4px 6px;
+        color: white;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        height: 20px;
+    }
+
+    .navbar-toggler{
+        padding: 0.2rem .15rem;
+        font-size: 1rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+    .responsive-toggle {
+        width: 22%;
+    }
+    .category-tabs ul div:nth-child(1) #sidetab i{
+        font-size: 15px;
+    }
+    .signup-form input[type="radio"]{
+        height: 20px;
+        width: 80% !important;
+        margin-bottom: 7px;
+        display: flex;
+        margin-left: 20px !important;
+    }
+    .question-network{
+        width: 90%;
+    }
+    .question-login div p{
+        display: none;
+    }
+    .question-login div{
+        display: flex;
+        justify-content: center;
+    }
+    .user-answer-profile div p{
+        font-size: 15px !important;
+    }
+    .answer-network{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 397px) {
+    .navbar-toggler{
+        padding: 0.2rem .15rem;
+        font-size: 1rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+    .responsive-toggle {
+        width: 21%;
+    }
+    .category-tabs ul div:nth-child(1) li a{
+       font-size: 11px;
+    }
+    .blog-tags ul li a{
+        padding: 0px 4px;
+        font-size: 12px;
+        color: black;
+        border: 1px solid transparent;
+    }
+    .blog-reactions ul li a{
+        font-size: 10px;
+    }
+    .question-network ul li{
+        font-size: 11px;
+    }
+    .signup-form input[type="radio"]{
+        height: 20px;
+        width: 90% !important;
+        margin-bottom: 7px;
+        display: flex;
+        margin-left: 20px !important;
+    }
+    .sort-drop{
+        font-size: 8px;
+        padding: 3px 2px;
+        border-radius: 6px;
+    }
+    .user-question-profile{
+        flex-direction: column;
+    }
+    .user-question-profile img{
+        width: 20%;
+    }
+    .user-question-profile div{
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 377px) {
+    .navbar-toggler{
+        padding: 0.2rem .15rem;
+        font-size: 1rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+    .responsive-toggle {
+        width: 21%;
+    }
+    .sort-drop{
+        font-size: 6px;
+        padding: 3px 2px;
+        border-radius: 6px;
+    }
+  }
+
+  @media only screen and (max-width: 363px) {
+    .sort-drop{
+        font-size: 7px;
+        padding: 3px 3px;
+        border-radius: 6px;
+    }
+  }
